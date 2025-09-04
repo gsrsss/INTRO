@@ -32,13 +32,13 @@ with col2:
     if modo == 'GL':
        st.write('i love girls! teach me more!')
     if modo == 'HET':
-       st.write('if its not shojosei ur on thin ice')
+       st.write('depends on what it is...but ur on thin ice buddy')
         
-st.subheader("Uso de Botones")
-if st.button('Presiona el botón'):
-    st.write('Gracias por presionar')
+st.subheader("click if you love ukes")
+if st.button('press the button'):
+    st.write('thx for pressing!')
 else:
-    st.write('No has presionado aún')
+    st.write('button unpressed')
 
 st.subheader("Selectbox")
 in_mod = st.selectbox(

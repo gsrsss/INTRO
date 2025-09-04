@@ -36,22 +36,22 @@ with col2:
         
 st.subheader("click if you love ukes")
 if st.button('press the button'):
-    st.write('thx for pressing!')
+    st.write('thx for pressing! u got great taste')
 else:
     st.write('button unpressed')
 
-st.subheader("Selectbox")
+st.subheader("pick a recommendation from me!")
 in_mod = st.selectbox(
-    "Selecciona la modalidad",
-    ("Audio", "Visual", "Háptico"),
+    "my top three",
+    ("kabukichou bad trip", "the song of yoru and asa", "ask and you will recieve"),
 )
-if in_mod == "Audio":
-    set_mod = "Reproducir audio"
-elif in_mod == "Visual":
-    set_mod = "Reproducir video"
-elif in_mod == "Háptico":
-    set_mod = "Activar vibración"
-st.write(" La acción es:" , set_mod)
+if in_mod == "kabukichou bad trip":
+    set_mod = "10/10 for me, their relationship is so cute"
+elif in_mod == "the song of yoru and asa":
+    set_mod = "9/10, the sequel is so good!"
+elif in_mod == "ask and you will recieve":
+    set_mod = "9/10, i love office relationships!"
+st.write("my review is:" , set_mod)
 
 
 with st.sidebar:

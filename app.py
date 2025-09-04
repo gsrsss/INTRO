@@ -5,7 +5,7 @@ st.title("━━━━⊱⋆⊰━━━━")
 
 st.header("get to know me...")
 st.write("my name is gaby, i love romance and everything cute. read FANGS for clear skin. 𐔌՞. .՞𐦯")
-image = Image.open('Interfaces Mult2.png')
+image = Image.open('Girly pup🎀.jpeg')
 
 st.image(image, caption='Interfaces multimodales')
 

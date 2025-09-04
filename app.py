@@ -25,14 +25,14 @@ with col1:
        st.write('omg yay!')
   
 with col2:
-    st.subheader("Esta es la segunda columna")
-    modo = st.radio("Que Modalidad es la principal en tu interfaz", ('Visual', 'auditiva', 'Táctil'))
-    if modo == 'Visual':
-       st.write('La vista es fundamental para tu interfaz')
-    if modo == 'auditiva':
-       st.write('La audición es fundamental para tu interfaz')
-    if modo == 'Táctil':
-       st.write('El tacto es fundamental para tu interfaz')
+    st.subheader("fav type?")
+    modo = st.radio("choose wisely...", ('BL', 'GL', 'HET'))
+    if modo == 'BL':
+       st.write('we gotta be bffs')
+    if modo == 'GL':
+       st.write('i love girls! teach me more!')
+    if modo == 'HET':
+       st.write('if its not shojosei ur on thin ice')
         
 st.subheader("Uso de Botones")
 if st.button('Presiona el botón'):

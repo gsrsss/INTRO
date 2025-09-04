@@ -1,10 +1,10 @@
 import streamlit as st
 from PIL import Image
 
-st.title("Gaby")
+st.title("━━━━⊱⋆⊰━━━━")
 
-st.header("En este espacio comienzo a desarrollar mis aplicaciones para interfaces multimodales.")
-st.write("Facilmente puedo realizar backend y frontend.")
+st.header("get to know me!")
+st.write("gaby | 21 | she/her")
 image = Image.open('Interfaces Mult2.png')
 
 st.image(image, caption='Interfaces multimodales')

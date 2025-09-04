@@ -3,8 +3,8 @@ from PIL import Image
 
 st.title("━━━━⊱⋆⊰━━━━")
 
-st.header("meet the artist!")
-st.write("i go by juno online, and enjoy drawing romantic themes and everything cute 𐔌՞. .՞𐦯")
+st.header("get to know me...")
+st.write("my name is gaby, i love romance and everything cute. read FANGS for clear skin. 𐔌՞. .՞𐦯")
 image = Image.open('Interfaces Mult2.png')
 
 st.image(image, caption='Interfaces multimodales')

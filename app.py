@@ -22,7 +22,7 @@ with col1:
     st.write("if this checkbox is not filled, we can't be friends!")
     resp = st.checkbox('i love it!!!')
     if resp:
-       st.write('omg yay! let's be friends!')
+       st.write('omg yay!')
   
 with col2:
     st.subheader("Esta es la segunda columna")

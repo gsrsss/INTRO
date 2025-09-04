@@ -18,7 +18,7 @@ st.subheader("wanna be friends? answer these!")
 col1, col2 = st.columns(2)
 
 with col1:
-    st.subheader("you like BL?")
+    st.subheader("you like romance?")
     st.write("if this checkbox is not filled, we can't be friends!")
     resp = st.checkbox('i love it!!!')
     if resp:

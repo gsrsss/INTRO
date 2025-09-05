@@ -7,7 +7,7 @@ st.header("get to know me...")
 st.write("my name is gaby, i love romance and everything cute. read FANGS for clear skin. 𐔌՞. .՞𐦯")
 image = Image.open('Girly pup🎀.jpeg')
 
-st.image(image, caption='Interfaces multimodales')
+st.image(image, caption='this is me btw')
 
 
 texto = st.text_input('write me a message!', 'write here...')

@@ -55,8 +55,8 @@ st.write("my review is:" , set_mod)
 
 
 with st.sidebar:
-    st.subheader("Configura la modalidad")
+    st.subheader("what's your mood today?")
     mod_radio = st.radio(
-        "Escoge la modalidad a usar",
-        ("Visual", "Auditiva","Háptica")
+        "pick one!",
+        ("happy", "meh","sad")
     )
